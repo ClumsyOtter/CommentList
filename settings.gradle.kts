@@ -40,6 +40,18 @@ dependencyResolutionManagement {
         maven {
             url = uri("https://maven.aliyun.com/repository/public")
         }
+        // 腾讯云镜像
+        maven {
+            url = uri("https://mirrors.cloud.tencent.com/nexus/repository/maven-public/")
+        }
+        // 华为云镜像
+        maven {
+            url = uri("https://repo.huaweicloud.com/repository/maven/")
+        }
+        // JitPack（用于 GitHub 项目）
+        maven {
+            url = uri("https://jitpack.io")
+        }
         // 备用：原始仓库（如果镜像不可用）
         google()
         mavenCentral()
