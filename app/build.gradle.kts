@@ -54,6 +54,8 @@ dependencies {
     implementation(libs.androidx.recyclerview)
     // BaseRecyclerViewAdapterHelper
     implementation(libs.baserecyclerviewadapterhelper)
+    // Kotlin Coroutines
+    implementation(libs.kotlinx.coroutines.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
